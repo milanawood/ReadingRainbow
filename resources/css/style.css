@@ -1,20 +1,20 @@
 @font-face {
     font-family: "BalginDisplay-Bold";
-    src: url(/Volumes/LaCie/CodeAcademy/Reading-Rainbow/resources/fonts/Demo_Fonts/Fontspring-DEMO-balgindisplay-bold.otf);
+    src: url(../fonts/Demo_Fonts/Fontspring-DEMO-balgin-bold.otf);
     font-weight: normal;
     font-style: normal;
 } 
 
 @font-face {
     font-family: "GT-Walsheim-Regular";
-    src: url(/Volumes/LaCie/CodeAcademy/Reading-Rainbow/resources/fonts/gt-walsheim-font-family-1710832648-0/GT-Walsheim-Regular-Trial-BF651b7fc71a47d.otf);
+    src: url(../fonts/gt-walsheim-font-family-1710832648-0/GT-Walsheim-Condensed-Regular-Trial-BF651b7fc730eb2.otf);
     font-weight: normal;
     font-style: normal;
 }
 
 h1 {
     font-family: "BalginDisplay-Bold", Arial, Helvetica, sans-serif;
-    font-size: 2rem;
+    font-size: 3rem;
 } 
 
 h2 {
@@ -50,7 +50,7 @@ li {
     text-align: center;
     flex-direction: row;
     background: #ffd536;
-    justify-content: space-between;
+    justify-content: space-around;
     align-content: center;
     align-items: center;
     color: #1c1b1b;
@@ -59,17 +59,13 @@ li {
     margin: 0 auto;
 }
 
-.head-container .logo-img {
-    height: 75px;
-    display: flex;
-    object-fit: contain;
+#logo {
+    height: 4rem;
 }
 
 .head-container li {
     list-style: none;
-    display: inline;
-    margin-right: 5px;
-}
+} 
 
 .main {
     opacity: 0.9;
